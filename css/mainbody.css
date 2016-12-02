@@ -61,12 +61,19 @@
 }
 
 
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px){
-  	  .image{
-  	  	 display: block;
-  	  }
+@media (min-width: 320px) and (max-width: 480px) {
+  	.image_row > .image{
+  		width: 100%;
+  		margin-top:10px;
+  	}
+}
+
+
+@media (min-width: 480px) and (max-width: 720px){
+  	.image_row > .image{
+  		width: 45%;
+  		margin: 2%;
+  	}
 }
 
 .image_row > .image:hover span {
