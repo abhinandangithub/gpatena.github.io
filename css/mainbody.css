@@ -1,0 +1,20 @@
+.main{
+	width:70%;
+	margin: 30px auto;
+}
+
+.btnJob{
+	margin-top: 20px !important;
+	background-color: #0F4B91 !important;
+	text-align: center;
+	width: 40%;
+	//margin: 0px auto;
+	border-radius: 5px; 
+}
+
+.jobLnk{
+	padding:12px;
+	color: #fff;
+	font-weight: 600;
+	font-size: 14px;
+}

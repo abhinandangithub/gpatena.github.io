@@ -1,0 +1,189 @@
+.navbar-nav{
+	float: right !important;
+	margin-right: 50px;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li.mainCat{
+	/*border-left: 1px solid #dbdcde;
+	box-sizing: border-box;
+	height: 80px;*/
+
+	border-left: 1px solid #dbdcde;
+    height:80px;
+    -webkit-border-image: 
+      -webkit-gradient(linear, 0 100%, 0 0, from(#dbdcde), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image: 
+      -webkit-linear-gradient(bottom, #dbdcde, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image:
+      -moz-linear-gradient(bottom, #dbdcde, rgba(0, 0, 0, 0)) 1 100%;  
+    -o-border-image:
+      -o-linear-gradient(bottom, #dbdcde, rgba(0, 0, 0, 0)) 1 100%;
+    border-image:
+      linear-gradient(to top, #dbdcde, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+li.last-item{
+	border-right: 1px solid #dbdcde;
+	box-sizing: border-box;
+}
+
+li.mainCat:hover{
+	background: #dbdcde;
+	border-color: #dbdcde !important;
+	border-radius: 10px 10px 0px 0px;
+	border: 0px !important;
+}
+.separator{
+	padding-right: 22px;
+	padding-left: 22px;
+	font-size: 18px; 
+	max-width: 185px;
+	line-height: 1em;
+	text-align: center;
+	color: #592C81 !important;
+	font-family: "ff-mark-web-n4","ff-mark-web",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+/* pop over */
+
+.popover{
+	margin: 0px 30px !important;
+	left: 0 !important;
+	max-width: 95% !important;
+	width: 95% !important;
+	position: absolute;
+	box-sizing: border-box;
+	border: 0px !important;
+	border-radius: 0px !important;
+	padding: 0px !important;
+	min-height: 450px;
+	background: #dbdcde;
+	border-bottom-right-radius: 10px;
+}
+
+div#subcategories {
+    width: 100%;
+}
+
+.arrow{
+    display:none !important;
+}
+
+.popover-content{
+	padding: 0px !important;
+}
+
+.popover-content::before{
+	background: transparent url("http://www.athenahealth.com/assets/images/watermark-white.svg") no-repeat;
+    background-color: transparent;
+    background-image: url("http://www.athenahealth.com/assets/images/watermark-white.svg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto auto;
+    background-size: 100%;
+	opacity: 0.15;
+	top: -8%;
+	left: 40%;
+	width: 30%;
+	height: 100%;
+	z-index: -2;
+	content: "";
+	position: absolute;
+}
+
+/*.revenueImg{
+	background-color: #592c81 !important;
+	box-sizing: border-box;
+	height: 100%;
+	min-height: 400px;
+	border-radius: 0px 160px 50px 0px;
+}*/
+
+.revenueImg {
+  position: relative;
+  font-size: 20px;
+  //border-radius: 4px;
+  overflow: hidden;
+  color: #fff;
+  //height: 100%;
+  min-height: 450px;
+  padding: 0px !important;
+  border-bottom-left-radius: 10px;
+}
+
+.revenueImg:before {
+  content: '';
+  position: absolute;
+  top: 0; right: 0;
+  width: 100%; height: 100%;
+  background: #592c81;
+  -webkit-transform-origin:100% 0;
+  -ms-transform-origin:100% 0;
+  transform-origin:  50% 0;
+  -webkit-transform: skewX(-10deg);
+  -ms-transform: skewX(-10deg);
+  transform: skewX(-10deg);
+  //border-radius: 4px 4px 6px;
+  z-index: -1;
+}
+
+.category{
+	margin-top: 50px; 
+	margin-left: 30px; 
+}
+
+.drive{
+	text-align: center;
+	margin: 30px;
+	font-size: 24px; 
+	font-weight: normal !important;
+}
+
+li.subCat{
+	color: #799A3D;
+	font-size: 20px;
+}
+
+li.subCat:hover{
+	background: none !important;
+	cursor: pointer;
+}
+
+hr{
+	border-top: 1px solid #799A3D;
+	margin-right: 40px;
+	margin-top: 15px !important;
+	margin-bottom: 15px !important;  
+}
+
+.btnRev{
+	margin-top: 20px !important;
+	background-color: #799A3D !important;
+	text-align: center;
+	width: 50%;
+	margin: 0px auto;
+	border-radius: 5px; 
+}
+
+.revLnk{
+	padding:12px;
+	color: #fff;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.carousel-control,.carousel-indicators{
+	display: none !important;
+}

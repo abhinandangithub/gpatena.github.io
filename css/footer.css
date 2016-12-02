@@ -1,0 +1,43 @@
+footer{
+	height: 132px !important;
+	background-color: #3C1052 !important;
+	display: table;
+	width: 100%;
+}
+
+.ftrBox{
+	padding: 10px 30px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.ftrLnk{
+	display: inline-block;
+}
+
+.ftrFnt{
+	font-size: 14px;
+	color: #fff !important; 
+	font-weight: 600; 
+}
+
+.ftrFnt:after{
+	content: '|';
+	margin: 0px 10px;
+}
+
+.ftrCpy{
+	font-size: 14px !important;
+	color: #9572ac !important;
+	margin:10px 0px; !important;
+}
+
+.ftrImg{
+	width: 300px;
+	height: 63px;
+	float: right;
+}
+
+li.ftrLnk:hover{
+	cursor: pointer;
+}

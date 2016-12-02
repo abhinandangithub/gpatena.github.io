@@ -1,0 +1,19 @@
+.bdyBrder{
+	width:60%;
+	margin: auto;
+	border: 1px solid black;
+	height: 100px;
+}
+
+.home{
+	padding: 5px;
+}
+
+
+.make-it-slow:hover {
+  box-shadow: 0px 0px 0px red;
+}
+
+.carrerImg{
+	width: 100%;
+}

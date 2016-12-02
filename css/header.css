@@ -1,0 +1,16 @@
+.hdrImg{
+	width: 330px;
+	height: 49px;
+	top: 50px;
+}
+
+.navbar{
+	margin-top: 50px;
+	margin-bottom: 0px !important; 
+	background-color: #fff !important;
+	border: 0px !important;
+}
+
+.navbar-header{
+	margin-left: 50px !important;
+}

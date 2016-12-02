@@ -1,0 +1,34 @@
+<div id="subcategories" data-ng-mouseenter="category.open=true" data-ng-mouseleave="categoryMenu.catLeave(category)">
+    <div class="popover-content">
+        <div class="row">
+            <!--<dl data-ng-repeat="child in category.children">-->
+            <div class="col-md-4">
+                <div class="revenueImg">
+                    <p class="drive">We drive results for<br> organizations across <br>the care continuum</p>
+                    <img style="display:block;margin:0px auto" src="assets/images/super_athenista_01.png"/>
+                    <div class="btnRev">
+                        <p class="revLnk">
+                            Calculate your revenue 
+                            <span style="font-size: 16px; font-weight:bold" class="glyphicon glyphicon-chevron-right"></span>  
+                        </p></div>
+                </div>
+                
+                <!-- <img src="assets/images/careersheroimg.jpg"/> -->
+            </div>
+            <div class="col-md-4" data-ng-repeat="child in category.children" id="cat_{{child.name}}">
+                <div class="category" data-ng-repeat="gChildArr in child.displayChildren" data-ng-init="categoryMenu.setTop($index,child.name)" data-ng-if="gChildArr.length>0">
+                    <dt data-ng-show="$index===0" id="cat_header_{{child.name}}">
+                        <h3 style="width: 50%;margin-bottom:20px" data-ng-click="categoryMenu.search(category, child, null, gChildArr)" href="">{{child.name}}</h3>
+                    </dt> 
+                                  
+                    <ul data-ng-repeat="gChild in gChildArr"  data-ng-class="{'first-row':$index===0}">
+                        <li class="subCat" ng-click="categoryMenu.getSubCategory(category, child, gChild)" href="">{{gChild.name}}
+                         <span style="float:right;margin-right: 40px;" class="glyphicon glyphicon-play-circle"></span>
+                        </li>
+                        <hr ng-class="{'hrtag-first':$index===0, 'hrtag-first':$index===gChildArr.length-1, 'hrtag-rest':$index!==0}"> 
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
