@@ -18,3 +18,57 @@
 	font-weight: 600;
 	font-size: 14px;
 }
+
+.image_row {
+	margin-top: 50px;
+	width: 100%;
+	float: left;
+}
+
+.image_row > .image {
+	width: 24%;
+	margin: 0.25%;
+	height: 150px;
+	float: left;
+	position: relative;
+}
+
+.image_row > .image > img {
+	width:100%;
+	height: 100%;
+	position: absolute;
+	z-index: 2;
+}
+
+.image_row > .image > span {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 3;
+	background: rgba(0,128,0,0.5);
+	opacity: 0;
+	-webkit-transition: 350ms opacity ease-in-out;
+	-moz-transition: 350ms opacity ease-in-out;
+	-o-transition: 350ms opacity ease-in-out;
+	transition: 350ms opacity ease-in-out;
+	color: #fff;
+	text-align: center;
+}
+
+.image_row > .image > span > h2 {
+	color: #fff;
+	margin:10px;
+}
+
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px){
+  	  .image{
+  	  	 display: block;
+  	  }
+}
+
+.image_row > .image:hover span {
+	opacity: 1;
+}
