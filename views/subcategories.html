@@ -9,7 +9,7 @@
                     <div class="btnRev">
                         <p class="revLnk">
                             Calculate your revenue 
-                            <span style="font-size: 16px; font-weight:bold" class="glyphicon glyphicon-chevron-right"></span>  
+                            <span class="glyphicon glyphicon-chevron-right"></span>  
                         </p></div>
                 </div>
                 
@@ -18,7 +18,7 @@
             <div class="col-md-4" data-ng-repeat="child in category.children" id="cat_{{child.name}}">
                 <div class="category" data-ng-repeat="gChildArr in child.displayChildren" data-ng-init="categoryMenu.setTop($index,child.name)" data-ng-if="gChildArr.length>0">
                     <dt data-ng-show="$index===0" id="cat_header_{{child.name}}">
-                        <h3 style="width: 50%;margin-bottom:20px" data-ng-click="categoryMenu.search(category, child, null, gChildArr)" href="">{{child.name}}</h3>
+                        <h3 style="width: 68%;margin-bottom:20px" data-ng-click="categoryMenu.search(category, child, null, gChildArr)" href="">{{child.name}}</h3>
                     </dt> 
                                   
                     <ul data-ng-repeat="gChild in gChildArr"  data-ng-class="{'first-row':$index===0}">

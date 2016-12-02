@@ -80,43 +80,47 @@ demoApp.controller('categoryController',function($scope, $interval, $timeout, $d
 				"children": [{
 					"id": 517,
 					"code": "LA",
-					"name": "Books",
+					"name": "Valued-Based Care and Practices",
 					"children": [{
 						"id": 520,
-						"name": "Mathematics",
+						"name": "Medical Groups & Practices",
 						"children": []
 					}, {
 						"id": 520,
-						"name": "Science",
+						"name": "Medical Specialties",
 						"children": []
 					}, {
 						"id": 520,
-						"name": "Social",
+						"name": "Starting a Medical Practice",
 						"children": []
 					}, {
 						"id": 520,
-						"name": "English",
+						"name": "FQHC",
+						"children": []
+					},{
+						"id": 520,
+						"name": "Community Hospitals",
 						"children": []
 					}]
 				}, {
 					"id": 514,
 					"code": "LV",
-					"name": "Others",
+					"name": "For Medical Groups and Practices",
 					"children": [{
 						"id": 594,
-						"name": "Results",
+						"name": "Hospitals & Health Systems",
 						"children": []
 					}, {
 						"id": 594,
-						"name": "Higher studies",
+						"name": "Academic Medical Centers",
 						"children": []
 					}, {
 						"id": 594,
-						"name": "Sports",
+						"name": "Urgent Care Centers",
 						"children": []
 					}, {
 						"id": 594,
-						"name": "Achivements",
+						"name": "Health Plans",
 						"children": []
 					}]
 				}]
@@ -124,15 +128,105 @@ demoApp.controller('categoryController',function($scope, $interval, $timeout, $d
 				"id": 514,
 				"code": null,
 				"name": "Results& Insights",
-				"children": null,
-				"parentId": 0
+				"children": [{
+					"id": 517,
+					"code": "LA",
+					"name": "Valued-Based Care and Practices",
+					"children": [{
+						"id": 520,
+						"name": "Medical Groups & Practices",
+						"children": []
+					}, {
+						"id": 520,
+						"name": "Medical Specialties",
+						"children": []
+					}, {
+						"id": 520,
+						"name": "Starting a Medical Practice",
+						"children": []
+					}, {
+						"id": 520,
+						"name": "FQHC",
+						"children": []
+					},{
+						"id": 520,
+						"name": "Community Hospitals",
+						"children": []
+					}]
+				}, {
+					"id": 514,
+					"code": "LV",
+					"name": "For Medical Groups and Practices",
+					"children": [{
+						"id": 594,
+						"name": "Hospitals & Health Systems",
+						"children": []
+					}, {
+						"id": 594,
+						"name": "Academic Medical Centers",
+						"children": []
+					}, {
+						"id": 594,
+						"name": "Urgent Care Centers",
+						"children": []
+					}, {
+						"id": 594,
+						"name": "Health Plans",
+						"children": []
+					}]
+				}]
 			},
 			{
 				"id": 514,
 				"code": null,
 				"name": "About athenahealth",
-				"children": null,
-				"parentId": 0
+				"children": [{
+					"id": 517,
+					"code": "LA",
+					"name": "Our Company",
+					"children": [{
+						"id": 520,
+						"name": "Events",
+						"children": []
+					}, {
+						"id": 520,
+						"name": "Awards",
+						"children": []
+					}, {
+						"id": 520,
+						"name": "Careers",
+						"children": []
+					}, {
+						"id": 520,
+						"name": "Investors",
+						"children": []
+					},{
+						"id": 520,
+						"name": "Newsroom",
+						"children": []
+					}]
+				}, {
+					"id": 514,
+					"code": "LV",
+					"name": "Our Partners",
+					"children": [{
+						"id": 594,
+						"name": "Marketplace",
+						"children": []
+					}, {
+						"id": 594,
+						"name": "More Disruption Please",
+						"children": []
+					}, {
+						"id": 594,
+						"name": "Strategic Alliances",
+						"children": []
+					}, {
+						"id": 594,
+						"name": "Marketplace Plans",
+						"children": []
+					}]
+				}]
 			}]
 		}
 	};	

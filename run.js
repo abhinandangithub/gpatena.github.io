@@ -14,7 +14,4 @@ app.use('/views',express.static(path.join(__dirname, 'views')));
 app.use('/assets',express.static(path.join(__dirname, 'assets/images')));
 
 app.listen(3005);
-
-
-
-console.log("Running at Port 3000");
+console.log("Running at Port 3005");
