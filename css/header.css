@@ -23,3 +23,9 @@
 	margin-top: 0px !important;
 	border-bottom:1px solid #dbdcde !important;
 }
+
+@media (min-width: 200px) and (max-width: 480px) {
+  	.scrolled{
+		position: absolute !important;
+	}
+}

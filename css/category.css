@@ -187,3 +187,31 @@ hr{
 .carousel-control,.carousel-indicators{
 	display: none !important;
 }
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  	
+}
+
+
+@media (min-width: 480px) and (max-width: 720px){
+  	.separator{
+		padding-right: 10px;
+		padding-left: 10px;
+		font-size: 14px; 
+		max-width: 150px;
+		line-height: 1em;
+		text-align: center;
+		color: #592C81 !important;
+		font-family: "ff-mark-web-n4","ff-mark-web",sans-serif;
+		font-style: normal;
+		font-weight: 400;
+	}
+}
+
+@media (min-width: 200px) and (max-width: 480px) {
+  	li.mainCat{
+		border-left: 0px !important;
+	}
+}

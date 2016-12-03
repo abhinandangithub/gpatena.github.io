@@ -61,7 +61,7 @@
 }
 
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 200px) and (max-width: 480px) {
   	.image_row > .image{
   		width: 100%;
   		margin-top:10px;
