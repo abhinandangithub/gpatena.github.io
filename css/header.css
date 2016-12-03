@@ -5,6 +5,7 @@
 }
 
 .navbar{
+	width: 100%;
 	margin-top: 50px;
 	margin-bottom: 0px !important; 
 	background-color: #fff !important;
@@ -13,4 +14,12 @@
 
 .navbar-header{
 	margin-left: 50px !important;
+}
+
+.scrolled{
+	position: fixed !important;
+	z-index: 999;
+	top:0;
+	margin-top: 0px !important;
+	border-bottom:1px solid #dbdcde !important;
 }

@@ -251,18 +251,22 @@ demoApp.controller('categoryController',function($scope, $interval, $timeout, $d
                 });
         }, 200);
 
-	 vm.catHover = function(cat) {
-        let vm = this;
-        cat.open = true;
-        angular.forEach(vm.categories, function (item, index, arr) {
-            if (cat.name !== item.name) {
-                item.open = false;
-            }
-            if (index === arr.length - 1) {
-                resolve();
-            }
-        });
-    }
+		vm.catHover = function(cat) {
+	        let vm = this;
+	        cat.open = true;
+	        angular.forEach(vm.categories, function (item, index, arr) {
+	            if (cat.name !== item.name) {
+	                item.open = false;
+	            }
+	            if (index === arr.length - 1) {
+	                resolve();
+	            }
+	        });
+	    }
+	    vm.catLeave =function(cat) {
+	        let vm = this;
+	        cat.open = false;
+	    }
 });
 
 demoApp.controller('mainController',function($scope, $interval){
@@ -272,7 +276,7 @@ demoApp.controller('mainController',function($scope, $interval){
 	var images = [];
 	var obj = {
 		"img":'ligmie_preval_wat.png', 
-		"text": "Data used in this tool is solely based upon historical data from athenahealth clients as well as third-party research. The results displayed by this tool do not guarantee any results for you or other individual practices. ",
+		"text": "Data used in this tool is solely based upon historical data from athenahealth clients as well as third-party research. The results displayed by this tool do not guarantee any results for you ",
 		"radio": 'one'
 	};
 	var obj1 = {
