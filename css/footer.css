@@ -29,7 +29,7 @@ footer{
 .ftrCpy{
 	font-size: 14px !important;
 	color: #9572ac !important;
-	margin:10px 0px; !important;
+	margin:10px 0px !important;
 }
 
 .ftrImg{
@@ -40,4 +40,33 @@ footer{
 
 li.ftrLnk:hover{
 	cursor: pointer;
+}
+
+@media (min-width: 200px) and (max-width: 480px) {
+  	footer{
+		height: 200px !important;
+	}
+	.ftrBox{
+		padding: 5px 10px;
+	}
+	.ftrLnk{
+		display: block;
+	}
+	.ftrFnt{
+		font-size: 12px;
+	}
+	.ftrFnt:after{
+		content: '';
+		margin: 0px 50px;
+	}
+	.ftrCpy{
+		font-size: 14px !important;
+		margin:5px 0px;
+	}
+
+	.ftrImg{
+		width: 200px;
+		height: 40px;
+		text-align: center;
+	}
 }

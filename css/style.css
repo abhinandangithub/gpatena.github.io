@@ -60,3 +60,15 @@
 	width:40%;
 	margin-left: 200px; 
 }
+
+@media (min-width: 200px) and (max-width: 480px) {
+  	.hdrMn > .hdrImgTxt > h4 {
+		margin-left: 10px; 
+	}
+
+	.hdrMn > .hdrImgTxt > p {
+		width:100%;
+		margin-left: 10px; 
+		font-size: 12px;
+	}
+}

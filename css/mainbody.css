@@ -60,12 +60,39 @@
 	margin:10px;
 }
 
+.Opportunities{
+	font-size:36px
+}
+
+.data{
+	text-align:center
+}
 
 @media (min-width: 200px) and (max-width: 480px) {
   	.image_row > .image{
   		width: 100%;
   		margin-top:10px;
   	}
+  	.btnJob{
+		width: 100%;
+		border-radius: 2px; 
+	}
+
+	.jobLnk{
+		padding:5px;
+		color: #fff;
+		font-weight: 600;
+		font-size: 10px;
+	}
+
+	.Opportunities{
+		font-size:20px
+	}
+
+	.data{
+		font-size: 12px;
+		float: left;
+	}
 }
 
 
