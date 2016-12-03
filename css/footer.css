@@ -44,23 +44,26 @@ li.ftrLnk:hover{
 
 @media (min-width: 200px) and (max-width: 480px) {
   	footer{
-		height: 200px !important;
+		//height: 200px !important;
 	}
 	.ftrBox{
-		padding: 5px 10px;
+		padding: 5px 0px;
+	}
+	.ftrBox > .col-md-9{
+		padding-left: 20px !important;
 	}
 	.ftrLnk{
-		display: block;
+		//display: block;
 	}
 	.ftrFnt{
-		font-size: 12px;
+		font-size: 10px;
 	}
 	.ftrFnt:after{
 		content: '';
-		margin: 0px 50px;
+		margin: 0px 10px;
 	}
 	.ftrCpy{
-		font-size: 14px !important;
+		font-size: 12px !important;
 		margin:5px 0px;
 	}
 
