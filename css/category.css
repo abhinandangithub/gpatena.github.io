@@ -223,6 +223,7 @@ hr{
   	li.mainCat{
 		border: 0px !important;
 		height: 30px;
+		text-align: center;
 	}
 	.separator{
 		padding:0px;
