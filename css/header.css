@@ -28,7 +28,15 @@
   	.scrolled{
 		position: absolute !important;
 	}
-	.navbar{
+	.cateSec{
 		display: none;
+	}
+	.hdrImg{
+		width: 150px;
+		height: 30px;
+		top: 0px !important;
+	}
+	.navbar-header{
+		margin-left: 0px !important;
 	}
 }
