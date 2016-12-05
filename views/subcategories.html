@@ -25,7 +25,7 @@
                         <li class="subCat" ng-click="categoryMenu.getSubCategory(category, child, gChild)" href="">{{gChild.name}}
                          <span style="float:right;margin-right: 40px;" class="glyphicon glyphicon-play-circle"></span>
                         </li>
-                        <hr ng-class="{'hrtag-first':$index===0, 'hrtag-first':$index===gChildArr.length-1, 'hrtag-rest':$index!==0}"> 
+                        <hr ng-show="$index!==gChildArr.length-1" ng-class="{'hrtag-first':$index===0, 'hrtag-first':$index===gChildArr.length-1, 'hrtag-rest':$index!==0}"> 
                     </ul>
                 </div>
             </div>
