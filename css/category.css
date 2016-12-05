@@ -3,6 +3,11 @@
 	margin-right: 50px;
 }
 
+.categorySize{
+	width: 68%;
+	margin-bottom:20px
+}
+
 ul{
 	list-style-type: none;
 	margin: 0;
@@ -211,6 +216,10 @@ hr{
 }
 
 @media (min-width: 200px) and (max-width: 480px) {
+	.popover{
+		margin: 0px 15px !important;
+	}
+
   	li.mainCat{
 		border: 0px !important;
 		height: 30px;
@@ -228,7 +237,20 @@ hr{
 		font-weight: 400;
 	}
 
-	.hide{
+	li.subCat{
+		color: #799A3D;
+		font-size: 14px;
+	}
+	.category{
+		margin-top: 0px;
+	}
+	.categorySize{
+		width: 100%;
+		margin-bottom:10px;
+		font-size: 18px !important;
+	}
+
+	.hideDiv{
 		display: none;
 	}
 }

@@ -330,7 +330,7 @@ demoApp.controller('mainController',function($scope, $interval){
 
 demoApp.controller('HeaderController',function($scope){
 	var vm = this;
-	$scope.showMenu = false;
+	$scope.showMenu = true;
 	console.log("HeaderController");
 	$scope.hamburgerClick = function(){
 		console.log("hamburgerClick ", $scope.showMenu);
