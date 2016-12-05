@@ -1,4 +1,4 @@
-<ul class="nav navbar-nav category-list">
+<ul class="nav navbar-nav category-list texCenter">
     <li class="mainCat" data-ng-repeat="category in categoryMenu.categories" ng-click="categoryMenu.getCategory(category)" data-ng-if="category.id!==0" uib-popover-template="'views/subcategories.html'" popover-is-open="category.open" data-ng-mouseenter="categoryMenu.catHover(category)" data-ng-mouseleave="categoryMenu.catLeave(category)" popover-placement="bottom" data-ng-class="{'last-item':$index===categoryMenu.categories.length-1}">
         <a href="" data-id={{category.link}} class="separator" data-index={{$index}} style="outline:none">
           <span>{{category.name|uppercase}}</span>

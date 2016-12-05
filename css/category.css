@@ -212,6 +212,19 @@ hr{
 
 @media (min-width: 200px) and (max-width: 480px) {
   	li.mainCat{
-		border-left: 0px !important;
+		border: 0px !important;
+		height: 30px;
+	}
+	.separator{
+		padding:0px;
+		text-align: center;
+		font-size: 14px; 
+		max-width: 100%;
+		line-height: 1em;
+		text-align: center;
+		color: #592C81 !important;
+		font-family: "ff-mark-web-n4","ff-mark-web",sans-serif;
+		font-style: normal;
+		font-weight: 400;
 	}
 }
