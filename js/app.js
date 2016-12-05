@@ -1,4 +1,4 @@
-var demoApp = angular.module('demoApp', ['ui.router','ngAnimate', 'ngSanitize', 'ui.bootstrap']);
+var demoApp = angular.module('demoApp', ['ui.router','ngSanitize', 'ui.bootstrap']);
 
 demoApp.controller('HomeController',function($scope){
 	var vm = this;
@@ -328,4 +328,12 @@ demoApp.controller('mainController',function($scope, $interval){
 	};
 });
 
-	
+demoApp.controller('HeaderController',function($scope){
+	var vm = this;
+	$scope.showMenu = true;
+	console.log("HeaderController");
+	$scope.hamburgerClick = function(){
+		console.log("hamburgerClick ", $scope.showMenu);
+		$scope.showMenu =  !$scope.showMenu;
+	};
+});

@@ -4,7 +4,7 @@ demoApp.directive('headerDirective',function($window){
         restrict: 'E',
         //template: 'directive',
         templateUrl: 'views/header.html',
-        //controller: 'HeaderController',
+        controller: 'HeaderController',
         //controllerAs: 'pgHdr',
         //bindToController: true,
         link: function (scope, element) {
