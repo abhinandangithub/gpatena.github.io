@@ -70,4 +70,8 @@ li.ftrLnk:hover{
 	.ftrImg{
 		display: none;
 	}
+
+	.texCenter{
+		text-align:center
+	}
 }
