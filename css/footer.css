@@ -68,8 +68,6 @@ li.ftrLnk:hover{
 	}
 
 	.ftrImg{
-		width: 100px;
-		height: 40px;
-		text-align: center;
+		display: none;
 	}
 }
